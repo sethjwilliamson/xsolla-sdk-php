@@ -11,6 +11,12 @@
       "docs": "https://developers.xsolla.com",
       "source": "https://github.com/xsolla/xsolla-sdk-php/releases"
     },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/sethjwilliamson/xsolla-sdk-php"
+      }
+    ],
     "require": {
         "php": "^7.3|~8.0.0",
         "ext-curl": "*",
