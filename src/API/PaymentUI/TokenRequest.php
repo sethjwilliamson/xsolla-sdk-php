@@ -109,6 +109,18 @@ class TokenRequest
     }
 
     /**
+     * @param array $purchase  
+     *
+     * @return $this
+     */
+    public function setPurchaseArray($purchase)
+    {
+        $this->data['purchase'] = $purchase;
+
+        return $this;
+    }
+
+    /**
      * @param array $userAttributes
      * @return self
      */
